@@ -32,7 +32,7 @@ function editPost(e) {
       const li = document.createElement("li");
       li.classList.add("todo__section--todoItem");
     
-      li.innerHTML = `<div class="Rethabile">
+      li.innerHTML = `<div class="Todo-div">
       <input class="todo__checkbox" type="checkbox" />
       <span class="todo__text"> ${todo} </span>
       <div class="todo__actions--wrapper">
